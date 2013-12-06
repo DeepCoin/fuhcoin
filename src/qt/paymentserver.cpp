@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013 The Primecoin developers
+// Copyright (c) 2013 The fuhcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,7 +24,7 @@
 using namespace boost;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("primecoin:");
+const QString BITCOIN_IPC_PREFIX("fuhcoin:");
 
 //
 // Create a name that is unique for:
@@ -33,7 +33,7 @@ const QString BITCOIN_IPC_PREFIX("primecoin:");
 //
 static QString ipcServerName()
 {
-    QString name("PrimecoinQt");
+    QString name("fuhcoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -105,7 +105,7 @@ PaymentServer::PaymentServer(QApplication* parent) : QObject(parent), saveURIs(t
     uriServer = new QLocalServer(this);
 
     if (!uriServer->listen(name))
-        qDebug() << tr("Cannot start primecoin: click-to-pay handler");
+        qDebug() << tr("Cannot start fuhcoin: click-to-pay handler");
     else
         connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
 }

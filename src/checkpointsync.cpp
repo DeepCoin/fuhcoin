@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2013 PPCoin developers
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under conditional MIT/X11 software license,
 // see the accompanying file COPYING
 //
@@ -7,7 +7,7 @@
 // ppcoin network in 2012, giving cryptocurrency developers a tool to gain
 // additional network protection against 51% attack.
 //
-// Primecoin also adopts this security mechanism, and the enforcement of
+// fuhcoin also adopts this security mechanism, and the enforcement of
 // checkpoints is explicitly granted by user, thus granting only temporary
 // consensual central control to developer at the threats of 51% attack.
 //

@@ -1,21 +1,21 @@
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PRIMECOIN_PRIME_H
-#define PRIMECOIN_PRIME_H
+#ifndef fuhcoin_PRIME_H
+#define fuhcoin_PRIME_H
 
 #include "main.h"
 
 /**********************/
-/* PRIMECOIN PROTOCOL */
+/* fuhcoin PROTOCOL */
 /**********************/
 
 static const unsigned int nMaxSieveSize = 1000000u;
-static const uint256 hashBlockHeaderLimit = (uint256(1) << 255);
+static const uint256 hashBlockHeaderLimit = (uint256(1) << 24);
 static const CBigNum bnOne = 1;
-static const CBigNum bnPrimeMax = (bnOne << 2000) - 1;
-static const CBigNum bnPrimeMin = (bnOne << 255);
+static const CBigNum bnPrimeMax = (bnOne << 200) - 1;
+static const CBigNum bnPrimeMin = (bnOne << 24);
 
 extern unsigned int nTargetInitialLength;
 extern unsigned int nTargetMinLength;
@@ -41,7 +41,7 @@ void PrimorialAt(CBigNum& bn, CBigNum& bnPrimorial);
 //   false - prime chain too short (none of nChainLength meeting target)
 bool ProbablePrimeChainTest(const CBigNum& bnPrimeChainOrigin, unsigned int nBits, bool fFermatTest, unsigned int& nChainLengthCunningham1, unsigned int& nChainLengthCunningham2, unsigned int& nChainLengthBiTwin);
 
-static const unsigned int nFractionalBits = 24;
+static const unsigned int nFractionalBits = 12;
 static const unsigned int TARGET_FRACTIONAL_MASK = (1u<<nFractionalBits) - 1;
 static const unsigned int TARGET_LENGTH_MASK = ~TARGET_FRACTIONAL_MASK;
 static const uint64 nFractionalDifficultyMax = (1llu << (nFractionalBits + 32));
@@ -80,7 +80,7 @@ std::string GetPrimeOriginPrimorialForm(CBigNum& bnPrimeChainOrigin);
 
 
 /********************/
-/* PRIMECOIN MINING */
+/* fuhcoin MINING */
 /********************/
 
 // Mine probable prime chain of form: n = h * p# +/- 1

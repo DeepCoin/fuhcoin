@@ -1,6 +1,6 @@
 # -*- mode: Makefile; -*-
 # Copyright (c) 2011 Bitcoin Developers
-# Copyright (c) 2013 Primecoin Developers
+# Copyright (c) 2013 fuhcoin Developers
 # Distributed under conditional MIT/X11 software license,
 # see the accompanying file COPYING.
 
@@ -123,10 +123,10 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-all: primecoind
+all: fuhcoind
 
-test check: test_primecoin FORCE
-	./test_primecoin
+test check: test_fuhcoin FORCE
+	./test_fuhcoin
 
 #
 # LevelDB support
@@ -153,7 +153,7 @@ obj/%.o: %.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-primecoind: $(OBJS:obj/%=obj/%)
+fuhcoind: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -165,11 +165,11 @@ obj-test/%.o: test/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-test_primecoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
+test_fuhcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS) $(TESTLIBS)
 
 clean:
-	-rm -f primecoind test_primecoin
+	-rm -f fuhcoind test_fuhcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

@@ -1,7 +1,7 @@
-Primecoin 0.1.2 BETA
+fuhcoin 0.1.2 BETA
 ====================
 
-Copyright (c) 2013 Primecoin Developers
+Copyright (c) 2013 fuhcoin Developers
 
 Distributed under conditional MIT/X11 software license, see the accompanying
 file COPYING.
@@ -11,7 +11,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 Intro
 ---------------------
-Primecoin is a free open source cryptocurrency that implements the first
+fuhcoin is a free open source cryptocurrency that implements the first
 scientific computing proof-of-work for cryptocurrencies. The unique
 proof-of-work design searches for rare prime formations, providing
 experimental value for mathematicians to further understand the nature and
@@ -26,12 +26,12 @@ client.
 
 Setup
 -----
-Complete windows setup procedure and run Primecoin (Qt).
+Complete windows setup procedure and run fuhcoin (Qt).
 
-Website: http://primecoin.org
+Website: http://fuhcoin.org
 Forum: http://ppcointalk.org
-Github (source code + sig + wiki): https://github.com/primecoin/primecoin
-Sourceforge (release builds): https://sourceforge.net/projects/primecoin
+Github (source code + sig + wiki): https://github.com/fuhcoin/fuhcoin
+Sourceforge (release builds): https://sourceforge.net/projects/fuhcoin
 
 
 

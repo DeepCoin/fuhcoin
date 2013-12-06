@@ -1,7 +1,7 @@
-Primecoin 0.1.2 BETA
+fuhcoin 0.1.2 BETA
 ====================
 
-Copyright (c) 2013 Primecoin Developers
+Copyright (c) 2013 fuhcoin Developers
 
 Distributed under conditional MIT/X11 software license, see the accompanying
 file COPYING.
@@ -10,7 +10,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Primecoin is a free open source cryptocurrency that implements the first
+fuhcoin is a free open source cryptocurrency that implements the first
 scientific computing proof-of-work for cryptocurrencies. The unique
 proof-of-work design searches for rare prime formations, providing
 experimental value for mathematicians to further understand the nature and
@@ -24,20 +24,20 @@ after completing setup and starting up client.
 
 Setup
 --------------------
-You need the Qt4 run-time libraries to run Primecoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run fuhcoin-Qt. On Debian or Ubuntu:
         `sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/primecoin-qt (GUI, 32-bit)
-- bin/32/primecoind (headless, 32-bit)
-- bin/64/primecoin-qt (GUI, 64-bit)
-- bin/64/primecoind (headless, 64-bit)
+- bin/32/fuhcoin-qt (GUI, 32-bit)
+- bin/32/fuhcoind (headless, 32-bit)
+- bin/64/fuhcoin-qt (GUI, 64-bit)
+- bin/64/fuhcoind (headless, 64-bit)
 
-Website: http://primecoin.org
+Website: http://fuhcoin.org
 Forum: http://ppcointalk.org
-Github (source code + sig + wiki): https://github.com/primecoin/primecoin
-Sourceforge (release builds): https://sourceforge.net/projects/primecoin
+Github (source code + sig + wiki): https://github.com/fuhcoin/fuhcoin
+Sourceforge (release builds): https://sourceforge.net/projects/fuhcoin
 
 
 

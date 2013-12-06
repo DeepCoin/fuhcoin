@@ -1,11 +1,11 @@
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under conditional MIT/X11 software license,
 // see the accompanying file COPYING
 
 #include "prime.h"
 
 /**********************/
-/* PRIMECOIN PROTOCOL */
+/* fuhcoin PROTOCOL */
 /**********************/
 
 // Prime Table
@@ -218,7 +218,7 @@ unsigned int TargetFromInt(unsigned int nLength)
 }
 
 // Get mint value from target
-// Primecoin mint rate is determined by target
+// fuhcoin mint rate is determined by target
 //   mint = 999 / (target length ** 2)
 // Inflation is controlled via Moore's Law
 bool TargetGetMint(unsigned int nBits, uint64& nMint)
@@ -457,7 +457,7 @@ unsigned int EstimateWorkTransition(unsigned int nPrevWorkTransition, unsigned i
 
 
 /********************/
-/* PRIMECOIN MINING */
+/* fuhcoin MINING */
 /********************/
 
 // Test probable prime chain for: nOrigin (miner version - for miner use only)

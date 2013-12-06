@@ -1,14 +1,14 @@
-IDI_ICON1 ICON DISCARDABLE "icons/primecoin.ico"
-IDI_ICON2 ICON DISCARDABLE "icons/primecoin-testnet.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/fuhcoin.ico"
+IDI_ICON2 ICON DISCARDABLE "icons/fuhcoin-testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
 
-#define VER_PRODUCTVERSION     PRIMECOIN_VERSION_MAJOR,PRIMECOIN_VERSION_MINOR,PRIMECOIN_VERSION_REVISION,PRIMECOIN_VERSION_BUILD
-#define VER_PRODUCTVERSION_STR STRINGIZE(PRIMECOIN_VERSION_MAJOR) "." STRINGIZE(PRIMECOIN_VERSION_MINOR) "." STRINGIZE(PRIMECOIN_VERSION_REVISION) "." STRINGIZE(PRIMECOIN_VERSION_BUILD)
+#define VER_PRODUCTVERSION     fuhcoin_VERSION_MAJOR,fuhcoin_VERSION_MINOR,fuhcoin_VERSION_REVISION,fuhcoin_VERSION_BUILD
+#define VER_PRODUCTVERSION_STR STRINGIZE(fuhcoin_VERSION_MAJOR) "." STRINGIZE(fuhcoin_VERSION_MINOR) "." STRINGIZE(fuhcoin_VERSION_REVISION) "." STRINGIZE(fuhcoin_VERSION_BUILD)
 #define VER_FILEVERSION        VER_PRODUCTVERSION
 #define VER_FILEVERSION_STR    VER_PRODUCTVERSION_STR
-#define COPYRIGHT_STR          "2013-" STRINGIZE(COPYRIGHT_YEAR) " The Primecoin developers"
+#define COPYRIGHT_STR          "2013-" STRINGIZE(COPYRIGHT_YEAR) " The fuhcoin developers"
 
 VS_VERSION_INFO VERSIONINFO
 FILEVERSION     VER_FILEVERSION
@@ -20,14 +20,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Primecoin"
-            VALUE "FileDescription",    "Primecoin-Qt (OSS GUI client for Primecoin)"
+            VALUE "CompanyName",        "fuhcoin"
+            VALUE "FileDescription",    "fuhcoin-Qt (OSS GUI client for fuhcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "primecoin-qt"
+            VALUE "InternalName",       "fuhcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under conditional MIT/X11 software license, see the accompanying file COPYING."
-            VALUE "OriginalFilename",   "primecoin-qt.exe"
-            VALUE "ProductName",        "Primecoin-Qt"
+            VALUE "OriginalFilename",   "fuhcoin-qt.exe"
+            VALUE "ProductName",        "fuhcoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

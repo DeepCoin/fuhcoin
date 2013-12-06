@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -16,7 +16,7 @@
 #include <string>
 #include "uint256.h"
 
-#define PRIMECOIN_PORT   9911
+#define fuhcoin_PORT   9911
 #define RPC_PORT         9912
 #define TESTNET_PORT     9913
 #define TESTNET_RPC_PORT 9914
@@ -25,7 +25,7 @@ extern bool fTestNet;
 
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? TESTNET_PORT : PRIMECOIN_PORT;
+    return testnet ? TESTNET_PORT : fuhcoin_PORT;
 }
 
 

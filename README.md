@@ -1,34 +1,36 @@
-Primecoin integration/staging tree
+fuhcoin integration/staging tree
 ==================================
+[![Build Status](https://travis-ci.org/RazorLove/fuhcoin.png?branch=master)](https://travis-ci.org/RazorLove/fuhcoin)
 
-http://primecoin.org
 
-Copyright (c) 2013 Primecoin Developers
+http://fuhcoin.org
+
+Copyright (c) 2013 fuhcoin Developers
 
 Copyright (c) 2009-2013 Bitcoin Developers
 
 Copyright (c) 2011-2013 PPCoin Developers
 
-What is Primecoin?
+What is fuhcoin?
 ------------------
 
-Primecoin is an experimental cryptocurrency that introduces the first
-scientific computing proof-of-work to cryptocurrency technology. Primecoin's
+fuhcoin is an experimental cryptocurrency that introduces the first
+scientific computing proof-of-work to cryptocurrency technology. fuhcoin's
 proof-of-work is an innovative design based on searching for prime number
 chains, providing potential scientific value in addition to minting and
-security for the network. Similar to Bitcoin, Primecoin enables instant payments
+security for the network. Similar to Bitcoin, fuhcoin enables instant payments
 to anyone, anywhere in the world. It also uses peer-to-peer technology to 
 operate with no central authority: managing transactions and issuing money are 
-carried out collectively by the network. Primecoin is also the name of the open
+carried out collectively by the network. fuhcoin is also the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Primecoin client sofware, see http://primecoin.org.
+the fuhcoin client sofware, see http://fuhcoin.org.
 
 License
 -------
 
-Primecoin is released under conditional MIT license. See  COPYING` for more
+fuhcoin is released under conditional MIT license. See  COPYING` for more
 information.
 
 Development process
@@ -42,7 +44,7 @@ development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
 submitter will be asked to start a discussion (if they haven't already) on the
-ppcoin/primecoin forum (http://ppcointalk.org).
+ppcoin/fuhcoin forum (http://ppcointalk.org).
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
@@ -50,9 +52,9 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/primecoin/primecoin/tags) are
+completely stable. [Tags](https://github.com/fuhcoin/fuhcoin/tags) are
 created regularly to indicate new official, stable release versions of
-Primecoin.
+fuhcoin.
 
 Testing
 -------

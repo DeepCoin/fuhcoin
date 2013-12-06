@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under conditional MIT/X11 software license,
 // see the accompanying file COPYING.
 #ifndef BITCOIN_VERSION_H

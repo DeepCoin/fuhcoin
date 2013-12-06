@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Bitcoin developers
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under conditional MIT/X11 software license,
 // see the accompanying file COPYING.
 #include <string>
@@ -48,9 +48,9 @@ const std::string CLIENT_NAME("Satoshi");
 
 #ifndef BUILD_DESC
 #    ifdef GIT_COMMIT_ID
-#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(PRIMECOIN_VERSION_MAJOR, PRIMECOIN_VERSION_MINOR, PRIMECOIN_VERSION_REVISION, PRIMECOIN_VERSION_BUILD, GIT_COMMIT_ID)
+#        define BUILD_DESC BUILD_DESC_FROM_COMMIT(fuhcoin_VERSION_MAJOR, fuhcoin_VERSION_MINOR, fuhcoin_VERSION_REVISION, fuhcoin_VERSION_BUILD, GIT_COMMIT_ID)
 #    else
-#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(PRIMECOIN_VERSION_MAJOR, PRIMECOIN_VERSION_MINOR, PRIMECOIN_VERSION_REVISION, PRIMECOIN_VERSION_BUILD)
+#        define BUILD_DESC BUILD_DESC_FROM_UNKNOWN(fuhcoin_VERSION_MAJOR, fuhcoin_VERSION_MINOR, fuhcoin_VERSION_REVISION, fuhcoin_VERSION_BUILD)
 #    endif
 #endif
 

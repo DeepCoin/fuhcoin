@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>Over Primecoin</translation>
+        <translation>Over fuhcoin</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -35,7 +35,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation>De Primecoin-ontwikkelaars</translation>
+        <translation>De fuhcoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Primecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Primecoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your fuhcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw fuhcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Primecoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Primecoinadres bezit</translation>
+        <source>Sign a message to prove you own a fuhcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald fuhcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Primecoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Primecoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified fuhcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde fuhcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Primecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Primecoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your fuhcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw fuhcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Primecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Primecoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
+        <source>fuhcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>fuhcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw bitcoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -321,7 +321,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
 </context>
 <context>
-    <name>PrimecoinGUI</name>
+    <name>fuhcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Primecoin</source>
-        <translation>Laat informatie zien over Primecoin</translation>
+        <source>Show information about fuhcoin</source>
+        <translation>Laat informatie zien over fuhcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Primecoin address</source>
-        <translation>Verstuur munten naar een Primecoinadres</translation>
+        <source>Send coins to a fuhcoin address</source>
+        <translation>Verstuur munten naar een fuhcoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Primecoin</source>
-        <translation>Wijzig instellingen van Primecoin</translation>
+        <source>Modify configuration options for fuhcoin</source>
+        <translation>Wijzig instellingen van fuhcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Primecoin</source>
-        <translation>Primecoin</translation>
+        <source>fuhcoin</source>
+        <translation>fuhcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,7 +481,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+22"/>
         <source>&amp;About Bitcoin</source>
-        <translation>&amp;Over Primecoin</translation>
+        <translation>&amp;Over fuhcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Primecoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Primecoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your fuhcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw fuhcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Primecoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Primecoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified fuhcoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde fuhcoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Primecoin client</source>
-        <translation>Primecoin client</translation>
+        <source>fuhcoin client</source>
+        <translation>fuhcoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Primecoin network</source>
-        <translation><numerusform>%n actieve connectie naar Primecoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to fuhcoin network</source>
+        <translation><numerusform>%n actieve connectie naar fuhcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Bitcoinnetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Primecoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het fuhcoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Primecoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Primecoinadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid fuhcoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig fuhcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Primecoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Primecoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. fuhcoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. fuhcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Primecoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Primecoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid fuhcoin address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig fuhcoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Primecoin-Qt</source>
-        <translation>Primecoin-Qt</translation>
+        <source>fuhcoin-Qt</source>
+        <translation>fuhcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Primecoin after logging in to the system.</source>
-        <translation>Start Primecoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start fuhcoin after logging in to the system.</source>
+        <translation>Start fuhcoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Primecoin on system login</source>
-        <translation>Start &amp;Primecoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start fuhcoin on system login</source>
+        <translation>Start &amp;fuhcoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Primecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Primecoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the fuhcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de fuhcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Primecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Primecoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the fuhcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het fuhcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Primecoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Primecoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting fuhcoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat fuhcoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Primecoin addresses in the transaction list or not.</source>
-        <translation>Of Primecoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show fuhcoin addresses in the transaction list or not.</source>
+        <translation>Of fuhcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Primecoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Primecoin.</translation>
+        <source>This setting will take effect after restarting fuhcoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van fuhcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Primecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Primecoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the fuhcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het fuhcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1070,7 +1070,7 @@ Adres: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan primecoin niet starten: click-to-pay handler</translation>
+        <translation>Kan fuhcoin niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Primecoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Toon het PrimecoinQt-hulpbericht voor een lijst met mogelijke Bitcoin commandoregel-opties.</translation>
+        <source>Show the fuhcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
+        <translation>Toon het fuhcoinQt-hulpbericht voor een lijst met mogelijke Bitcoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Primecoin - Debug window</source>
-        <translation>Primecoin-debugscherm</translation>
+        <source>fuhcoin - Debug window</source>
+        <translation>fuhcoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Primecoin Core</source>
-        <translation>Primecoin Kern</translation>
+        <source>fuhcoin Core</source>
+        <translation>fuhcoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Primecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Primecoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the fuhcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het fuhcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Primecoin RPC console.</source>
-        <translation>Welkom bij de Primecoin RPC-console.</translation>
+        <source>Welcome to the fuhcoin RPC console.</source>
+        <translation>Welkom bij de fuhcoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Primecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Primecoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a fuhcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een fuhcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Primecoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Primecoinadres bezit</translation>
+        <source>Sign the message to prove you own this fuhcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald fuhcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Primecoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Primecoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified fuhcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde fuhcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Primecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Primecoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a fuhcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een fuhcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Primecoin signature</source>
-        <translation>Voer Primecoin-handtekening in</translation>
+        <source>Enter fuhcoin signature</source>
+        <translation>Voer fuhcoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,7 +1650,7 @@ Adres: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Bitcoin developers</source>
-        <translation>De Primecoin-ontwikkelaars</translation>
+        <translation>De fuhcoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2188,7 +2188,7 @@ Adres: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Bitcoin version</source>
-        <translation>Primecoinversie</translation>
+        <translation>fuhcoinversie</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or primecoind</source>
-        <translation>Stuur commando naar -server of primecoind</translation>
+        <source>Send command to -server or fuhcoind</source>
+        <translation>Stuur commando naar -server of fuhcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: primecoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: primecoin.conf)
+        <source>Specify configuration file (default: fuhcoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: fuhcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: primecoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: primecoind.pid)
+        <source>Specify pid file (default: fuhcoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: fuhcoind.pid)
 </translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;fuhcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
@@ -2318,7 +2318,7 @@ rpcpassword=%s
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;fuhcoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Primecoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Primecoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. fuhcoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. fuhcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Primecoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Primecoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong fuhcoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal fuhcoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Primecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Primecoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the fuhcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de fuhcoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Primecoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Primecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of fuhcoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van fuhcoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Primecoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Primecoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart fuhcoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart fuhcoin om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Primecoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Primecoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. fuhcoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. fuhcoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

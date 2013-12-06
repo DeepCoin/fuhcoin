@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2013 PPCoin developers
-// Copyright (c) 2013 Primecoin developers
+// Copyright (c) 2013 fuhcoin developers
 // Distributed under conditional MIT/X11 software license,
 // see the accompanying file COPYING
 
@@ -21,6 +21,8 @@
 
 using namespace std;
 using namespace boost;
+
+const bool IsCalculatingGenesisBlockHash = true;
 
 //
 // Global state
@@ -67,7 +69,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Primecoin Signed Message:\n";
+const string strMessageMagic = "fuhcoin Signed Message:\n";
 
 double dPrimesPerSec = 0.0;
 double dChainsPerDay = 0.0;
@@ -1089,7 +1091,7 @@ static const int64 nTargetSpacing = 60; // one minute block spacing
 //
 unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
 {
-    // primecoin: min work for orphan block takes min work for now
+    // fuhcoin: min work for orphan block takes min work for now
     TargetSetLength(nTargetMinLength, nBase);
     return nBase;
 }
@@ -1109,7 +1111,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
     if (pindexPrevPrev->pprev == NULL)
         return TargetGetInitial(); // second block
 
-    // Primecoin: continuous target adjustment on every block
+    // fuhcoin: continuous target adjustment on every block
     int64 nInterval = nTargetTimespan / nTargetSpacing;
     int64 nActualSpacing = pindexPrev->GetBlockTime() - pindexPrevPrev->GetBlockTime();
     if (!TargetGetNext(pindexPrev->nBits, nInterval, nTargetSpacing, nActualSpacing, nBits))
@@ -1525,7 +1527,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("primecoin-scriptch");
+    RenameThread("fuhcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -1640,7 +1642,7 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
 
     if (!fJustCheck)
     {
-        // primecoin: track money supply
+        // fuhcoin: track money supply
         pindex->nMoneySupply = (pindex->pprev? pindex->pprev->nMoneySupply : 0) + nValueOut - nValueIn;
         CDiskBlockIndex blockindex(pindex);
         if (!pblocktree->WriteBlockIndex(blockindex))
@@ -2063,7 +2065,7 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
             return error("CheckBlock() : 15 May maxlocks violation");
     }
 
-    // Primecoin: proof of work is checked in ProcessBlock()
+    // fuhcoin: proof of work is checked in ProcessBlock()
 
     // Check timestamp
     if (GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
@@ -2149,7 +2151,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
             && !CheckSyncCheckpoint(hash, pindexPrev))
             return error("AcceptBlock() : rejected by synchronized checkpoint");
 
-        // Primecoin: block version starts from 2
+        // fuhcoin: block version starts from 2
         if (nVersion < 2)
             return state.Invalid(error("AcceptBlock() : rejected nVersion=1 block"));
         // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
@@ -2202,7 +2204,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 // Get block work value for main chain protocol
 CBigNum CBlockIndex::GetBlockWork() const
 {
-    // Primecoin: 
+    // fuhcoin: 
     // Difficulty multiplier of extra prime is estimated by nWorkTransitionRatio
     // Difficulty multiplier of fractional is estimated by
     //   r = 1/TransitionRatio
@@ -2728,8 +2730,8 @@ bool LoadBlockIndex()
         pchMessageStart[2] = 0xcb;
         pchMessageStart[3] = 0xc3;
         hashGenesisBlock = hashGenesisBlockTestNet;
-        nTargetInitialLength = 5; // primecoin: initial prime chain target
-        nTargetMinLength = 2;     // primecoin: minimum prime chain target
+        nTargetInitialLength = 5; // fuhcoin: initial prime chain target
+        nTargetMinLength = 2;     // fuhcoin: minimum prime chain target
     }
 
     //
@@ -2762,7 +2764,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 4a5e1e
 
         // Genesis block
-        const char* pszDedication = "Sunny King - dedicated to Satoshi Nakamoto and all who have fought for the freedom of mankind";
+        const char* pszDedication = "Sunny King is a God.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2773,16 +2775,30 @@ bool InitBlockIndex() {
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
-        block.nTime    = 1373064429;
+        block.nTime    = 1376500000;
         block.nBits    = TargetFromInt(6);
-        block.nNonce   = 383;
+        block.nNonce   = 0;
         block.bnPrimeChainMultiplier = ((uint64) 532541) * (uint64)(2 * 3 * 5 * 7 * 11 * 13 * 17 * 19 * 23);
 
-        if (fTestNet)
-        {
-            block.nTime    = 1373063882;
-            block.nNonce   = 1513;
-            block.bnPrimeChainMultiplier = ((uint64) 585641) * (uint64)(2 * 3 * 5 * 7 * 11 * 13 * 17 * 19 * 23);
+if (IsCalculatingGenesisBlockHash && (block.GetHash() != hashGenesisBlock)) {
+			block.nNonce = 0;
+
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            while (block.GetHash() > hashTarget)
+            {
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time");
+                    ++block.nTime;
+                }
+				if (block.nNonce % 10000 == 0)
+				{
+					printf("nonce %08u: hash = %s \n", block.nNonce, block.GetHash().ToString().c_str());
+				}
+            }
         }
 
         //// debug print
@@ -2790,7 +2806,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xaca30eb61dffbb9412d0ae743c3d74554f710853daec40ebd2514e830e05c9ff"));
+        assert(block.hashMerkleRoot == uint256("0x93dc2fad69dc1f3cf2d9a408ff01939fb52d44b778c607e94106af9edc0efb68"));
         block.print();
         assert(hash == hashGenesisBlock);
         {
@@ -4160,7 +4176,7 @@ void SHA256Transform(void* pstate, void* pinput, const void* pinit)
 // between calls, but periodically or if nNonce is 0xffff0000 or above,
 // the block is rebuilt and nNonce starts over at zero.
 //
-// Primecoin: ScanHash is not needed for primecoin
+// fuhcoin: ScanHash is not needed for fuhcoin
 
 
 // Some explaining would be appreciated
@@ -4532,10 +4548,10 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     CBigNum bnTarget = CBigNum().SetCompact(pblock->nBits);
 
     if (!CheckProofOfWork(pblock->GetHeaderHash(), pblock->nBits, pblock->bnPrimeChainMultiplier, pblock->nPrimeChainType, pblock->nPrimeChainLength))
-        return error("PrimecoinMiner : failed proof-of-work check");
+        return error("fuhcoinMiner : failed proof-of-work check");
 
     //// debug print
-    printf("PrimecoinMiner:\n");
+    printf("fuhcoinMiner:\n");
     printf("proof-of-work found  \n  target: %s\n  multiplier: %s\n  ", TargetToString(pblock->nBits).c_str(), pblock->bnPrimeChainMultiplier.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4544,7 +4560,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("PrimecoinMiner : generated block is stale");
+            return error("fuhcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4558,7 +4574,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("PrimecoinMiner : ProcessBlock, block not accepted");
+            return error("fuhcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
@@ -4566,11 +4582,11 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    printf("PrimecoinMiner started\n");
+    printf("fuhcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("primecoin-miner");
+    RenameThread("fuhcoin-miner");
 
-    // Primecoin miner
+    // fuhcoin miner
     if (pminer.get() == NULL)
         pminer.reset(new CPrimeMiner()); // init miner control object
 
@@ -4599,7 +4615,7 @@ void static BitcoinMiner(CWallet *pwallet)
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
         if (fDebug && GetBoolArg("-printmining"))
-            printf("Running PrimecoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+            printf("Running fuhcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4609,14 +4625,14 @@ void static BitcoinMiner(CWallet *pwallet)
         bool fNewBlock = true;
         unsigned int nTriedMultiplier = 0;
 
-        // Primecoin: try to find hash divisible by primorial
+        // fuhcoin: try to find hash divisible by primorial
         CBigNum bnHashFactor;
         Primorial(nPrimorialHashFactor, bnHashFactor);
         while ((pblock->GetHeaderHash() < hashBlockHeaderLimit || CBigNum(pblock->GetHeaderHash()) % bnHashFactor != 0) && pblock->nNonce < 0xffff0000)
             pblock->nNonce++;
         if (pblock->nNonce >= 0xffff0000)
             continue;
-        // Primecoin: primorial fixed multiplier
+        // fuhcoin: primorial fixed multiplier
         CBigNum bnPrimorial;
         unsigned int nRoundTests = 0;
         unsigned int nRoundPrimesHit = 0;
@@ -4632,12 +4648,12 @@ void static BitcoinMiner(CWallet *pwallet)
             while (bnPrimorial < bnMultiplierMin)
             {
                 if (!PrimeTableGetNextPrime(pminer->nPrimorialMultiplier))
-                    error("PrimecoinMiner() : primorial minimum overflow");
+                    error("fuhcoinMiner() : primorial minimum overflow");
                 Primorial(pminer->nPrimorialMultiplier, bnPrimorial);
             }
             CBigNum bnFixedMultiplier = (bnPrimorial > bnHashFactor)? (bnPrimorial / bnHashFactor) : 1;
 
-            // Primecoin: mine for prime chain
+            // fuhcoin: mine for prime chain
             unsigned int nProbableChainLength;
             if (MineProbablePrimeChain(*pblock, bnFixedMultiplier, fNewBlock, nTriedMultiplier, nProbableChainLength, nTests, nPrimesHit))
             {
@@ -4708,8 +4724,8 @@ void static BitcoinMiner(CWallet *pwallet)
                 break;
             if (fNewBlock)
             {
-                // Primecoin: a sieve+primality round completes
-                // Primecoin: estimate time to block
+                // fuhcoin: a sieve+primality round completes
+                // fuhcoin: estimate time to block
                 int64 nRoundTime = (GetTimeMicros() - nPrimeTimerStart); 
                 dTimeExpected = (double) nRoundTime / max(1u, nRoundTests);
                 double dRoundChainExpected = (double) nRoundTests;
@@ -4721,9 +4737,9 @@ void static BitcoinMiner(CWallet *pwallet)
                 }
                 dChainExpected += dRoundChainExpected;
                 if (fDebug && GetBoolArg("-printmining"))
-                    printf("PrimecoinMiner() : Round primorial=%u tests=%u primes=%u time=%uus pprob=%1.6f tochain=%6.3fd expect=%3.9f\n", pminer->nPrimorialMultiplier, nRoundTests, nRoundPrimesHit, (unsigned int) nRoundTime, dPrimeProbability, ((dTimeExpected/1000000.0))/86400.0, dRoundChainExpected);
+                    printf("fuhcoinMiner() : Round primorial=%u tests=%u primes=%u time=%uus pprob=%1.6f tochain=%6.3fd expect=%3.9f\n", pminer->nPrimorialMultiplier, nRoundTests, nRoundPrimesHit, (unsigned int) nRoundTime, dPrimeProbability, ((dTimeExpected/1000000.0))/86400.0, dRoundChainExpected);
 
-                // Primecoin: update time and nonce
+                // fuhcoin: update time and nonce
                 pblock->nTime = max(pblock->nTime, (unsigned int) GetAdjustedTime());
                 do
                     pblock->nNonce++;
@@ -4731,7 +4747,7 @@ void static BitcoinMiner(CWallet *pwallet)
                 if (pblock->nNonce >= 0xffff0000)
                     break;
 
-                // Primecoin: reset sieve+primality round timer
+                // fuhcoin: reset sieve+primality round timer
                 nRoundTests = 0;
                 nRoundPrimesHit = 0;
                 nPrimeTimerStart = GetTimeMicros();
@@ -4739,16 +4755,16 @@ void static BitcoinMiner(CWallet *pwallet)
                     fIncrementPrimorial = !fIncrementPrimorial;
                 dTimeExpectedPrev = dTimeExpected;
 
-                // Primecoin: dynamic adjustment of primorial multiplier
+                // fuhcoin: dynamic adjustment of primorial multiplier
                 if (fIncrementPrimorial)
                 {
                     if (!PrimeTableGetNextPrime(pminer->nPrimorialMultiplier))
-                        error("PrimecoinMiner() : primorial increment overflow");
+                        error("fuhcoinMiner() : primorial increment overflow");
                 }
                 else if (pminer->nPrimorialMultiplier > nPrimorialHashFactor)
                 {
                     if (!PrimeTableGetPreviousPrime(pminer->nPrimorialMultiplier))
-                        error("PrimecoinMiner() : primorial decrement overflow");
+                        error("fuhcoinMiner() : primorial decrement overflow");
                 }
                 Primorial(pminer->nPrimorialMultiplier, bnPrimorial);
             }
@@ -4757,7 +4773,7 @@ void static BitcoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("PrimecoinMiner terminated\n");
+        printf("fuhcoinMiner terminated\n");
         throw;
     }
 }

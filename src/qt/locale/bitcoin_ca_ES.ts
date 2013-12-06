@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Primecoin</source>
-        <translation>Sobre Primecoin</translation>
+        <source>About fuhcoin</source>
+        <translation>Sobre fuhcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Primecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Primecoin&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;fuhcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;fuhcoin&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Primecoin developers</source>
+        <source>The fuhcoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Primecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces Primecoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your fuhcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces fuhcoin per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Primecoin address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça Primecoin</translation>
+        <source>Sign a message to prove you own a fuhcoin address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça fuhcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Primecoin address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça Primecoin específica</translation>
+        <source>Verify a message to ensure it was signed with a specified fuhcoin address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça fuhcoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Primecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de Primecoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your fuhcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de fuhcoin per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PRIMECOINS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES PRIMECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR fuhcoinS&lt;/b&gt;!</source>
+        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES fuhcoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Primecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your primecoins from being stolen by malware infecting your computer.</source>
-        <translation>Primecoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus primecoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>fuhcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fuhcoins from being stolen by malware infecting your computer.</source>
+        <translation>fuhcoin es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus fuhcoins de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -316,7 +316,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
 </context>
 <context>
-    <name>PrimecoinGUI</name>
+    <name>fuhcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Primecoin</source>
-        <translation>Mostra informació sobre Primecoin</translation>
+        <source>Show information about fuhcoin</source>
+        <translation>Mostra informació sobre fuhcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Primecoin address</source>
-        <translation>Enviar monedes a una adreça Primecoin</translation>
+        <source>Send coins to a fuhcoin address</source>
+        <translation>Enviar monedes a una adreça fuhcoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Primecoin</source>
-        <translation>Modificar les opcions de configuració per primecoin</translation>
+        <source>Modify configuration options for fuhcoin</source>
+        <translation>Modificar les opcions de configuració per fuhcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Primecoin</source>
-        <translation>Primecoin</translation>
+        <source>fuhcoin</source>
+        <translation>fuhcoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Primecoin</source>
-        <translation>&amp;Sobre Primecoin</translation>
+        <source>&amp;About fuhcoin</source>
+        <translation>&amp;Sobre fuhcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Primecoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de Primecoin per provar que les poseeixes</translation>
+        <source>Sign messages with your fuhcoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de fuhcoin per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Primecoin addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça Primecoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified fuhcoin addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça fuhcoin específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Primecoin client</source>
-        <translation>Client Primecoin</translation>
+        <source>fuhcoin client</source>
+        <translation>Client fuhcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Primecoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Primecoin</numerusform><numerusform>%n connexions actives a la xarxa Primecoin</numerusform></translation>
+        <source>%n active connection(s) to fuhcoin network</source>
+        <translation><numerusform>%n connexió activa a la xarxa fuhcoin</numerusform><numerusform>%n connexions actives a la xarxa fuhcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Primecoin address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça Primecoin invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid fuhcoin address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça fuhcoin invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Primecoin can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. Primecoin no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. fuhcoin can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. fuhcoin no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Primecoin address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça Primecoin valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid fuhcoin address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça fuhcoin valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Primecoin-Qt</source>
-        <translation>Primecoin-Qt</translation>
+        <source>fuhcoin-Qt</source>
+        <translation>fuhcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Primecoin after logging in to the system.</source>
-        <translation>Iniciar automàticament Primecoin després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start fuhcoin after logging in to the system.</source>
+        <translation>Iniciar automàticament fuhcoin després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Primecoin on system login</source>
-        <translation>&amp;Iniciar Primecoin al inici de sessió del sistema.</translation>
+        <source>&amp;Start fuhcoin on system login</source>
+        <translation>&amp;Iniciar fuhcoin al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Primecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de Primecoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the fuhcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de fuhcoin al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Primecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa Primecoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the fuhcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa fuhcoin a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Primecoin.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï Primecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting fuhcoin.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï fuhcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Primecoin addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces Primecoin als llistats de transaccions o no.</translation>
+        <source>Whether to show fuhcoin addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces fuhcoin als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Primecoin.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï Primecoin.</translation>
+        <source>This setting will take effect after restarting fuhcoin.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï fuhcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Primecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Primecoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the fuhcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa fuhcoin un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start primecoin: click-to-pay handler</source>
-        <translation>No es pot iniciar primecoin: manejador clicla-per-pagar</translation>
+        <source>Cannot start fuhcoin: click-to-pay handler</source>
+        <translation>No es pot iniciar fuhcoin: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Primecoin-Qt help message to get a list with possible Primecoin command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de Primecoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de Primecoin.</translation>
+        <source>Show the fuhcoin-Qt help message to get a list with possible fuhcoin command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de fuhcoin-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de fuhcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Primecoin - Debug window</source>
-        <translation>Primecoin -Finestra de debug</translation>
+        <source>fuhcoin - Debug window</source>
+        <translation>fuhcoin -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Primecoin Core</source>
-        <translation>Nucli de Primecoin</translation>
+        <source>fuhcoin Core</source>
+        <translation>Nucli de fuhcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Primecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de Primecoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the fuhcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de fuhcoin del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Primecoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de Primecoin</translation>
+        <source>Welcome to the fuhcoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de fuhcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Primecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de Primecoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a fuhcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de fuhcoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Primecoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça Primecoin</translation>
+        <source>Sign the message to prove you own this fuhcoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça fuhcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Primecoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Primecoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified fuhcoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça fuhcoin específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Primecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introdueixi una adreça de Primecoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a fuhcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introdueixi una adreça de fuhcoin (per exemple 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Primecoin signature</source>
-        <translation>Introduïr una clau Primecoin</translation>
+        <source>Enter fuhcoin signature</source>
+        <translation>Introduïr una clau fuhcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Primecoin developers</source>
+        <source>The fuhcoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2175,11 +2175,11 @@ Address: %4
     </message>
 </context>
 <context>
-    <name>primecoin-core</name>
+    <name>fuhcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Primecoin version</source>
-        <translation>Versió de Primecoin</translation>
+        <source>fuhcoin version</source>
+        <translation>Versió de fuhcoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or primecoind</source>
-        <translation>Enviar comanda a -servidor o primecoind</translation>
+        <source>Send command to -server or fuhcoind</source>
+        <translation>Enviar comanda a -servidor o fuhcoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: primecoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: primecoin.conf)</translation>
+        <source>Specify configuration file (default: fuhcoin.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: fuhcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: primecoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: primecoind.pid)</translation>
+        <source>Specify pid file (default: fuhcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: fuhcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=primecoinrpc
+rpcuser=fuhcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;fuhcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=primecoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=fuhcoinrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;fuhcoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Primecoin is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement Primecoin ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. fuhcoin is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement fuhcoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Primecoin will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, Primecoin no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong fuhcoin will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, fuhcoin no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Primecoin Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de Primecoin per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the fuhcoin Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de fuhcoin per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Primecoin</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de Primecoin més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of fuhcoin</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de fuhcoin més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Primecoin to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia Primecoin per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart fuhcoin to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia fuhcoin per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Primecoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Primecoin is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement Primecoin ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. fuhcoin is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement fuhcoin ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>
